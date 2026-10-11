@@ -114,7 +114,3 @@ Official instructions:
   https://epubs.icar.org.in/index.php/IJAgS/article/view/27734
 - ICAR, Ikshu Kedar: mobile app for sugarcane water productivity
   https://epubs.icar.org.in/index.php/IndFarm/article/view/133002
-
-## Viva explanation in one minute
-
-"AgriGuide AI is a Generative AI chatbot for the KJS-AGR-01 sugarcane irrigation use case. The frontend is built with Streamlit. When a user asks a question, a simple keyword-retrieval function selects relevant summaries from a small knowledge base based on TNAU and ICAR sources. The selected context and question are sent to an existing Gemini language model through its API. The model generates a natural-language answer, which is displayed in the chat interface. We did not fine-tune or train an LLM. We use retrieval and prompting to ground the answer in reference material. The prototype avoids unsupported exact water quantities because irrigation depends on local soil, weather, rainfall, crop stage and field conditions."
