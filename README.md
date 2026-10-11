@@ -51,7 +51,7 @@ Create `.streamlit/secrets.toml` (copy the example file and rename it), then set
 
 ```toml
 GEMINI_API_KEY = "paste-your-key-here"
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-3.8-flash"
 ```
 
 If that model is not available to your API key, choose a currently available text-generation model from your Google AI Studio/API documentation and change `GEMINI_MODEL`.
